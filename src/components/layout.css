@@ -29,11 +29,14 @@ body {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   line-height: 1.5;
+  background-color: #e1e1e1;
   background-color: var(--bg-default);
+  color: #363636;
   color: var(--text-primary);
 }
 
 a {
+  color: #ff4d00;
   color: var(--primary);
   text-decoration: none;
 }
@@ -125,7 +128,9 @@ blockquote {
   padding-right: 2rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
+  border-color: #606060;
   border-left: 0.2em solid var(--hint);
+  color: #606060;
   color: var(--hint);
 }
 blockquote p {
@@ -162,11 +167,13 @@ blockquote p {
 }
 .brand {
   font-size: 1.5rem;
+  color: #ff4d00;
   color: var(--primary);
 }
 .brand .caption {
   margin-right: 0.45rem;
   margin-bottom: 0;
+  color: #606060;
   color: var(--hint);
 }
 .brand a {
@@ -192,6 +199,7 @@ blockquote p {
   bottom: 0;
   left: 0;
   border-radius: 0.75em;
+  background-color: #363636;
   background-color: var(--bg-theme-switch);
 }
 .theme-switch__slider svg {
@@ -202,6 +210,7 @@ blockquote p {
   width: 1.25em;
   height: 1.25em;
   border-radius: 50%;
+  fill: #ff4d00;
   fill: var(--primary);
   transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
@@ -212,6 +221,7 @@ blockquote p {
   display: none;
 }
 .theme-switch:hover .theme-switch__slider svg {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 0 10px var(--shadow-theme-switch);
 }
 
@@ -231,6 +241,7 @@ blockquote p {
   right: auto;
   height: 1px;
   width: 2rem;
+  background-color: #606060;
   background-color: var(--hint);
 }
 .about::before { top: 1.5rem; }
@@ -252,6 +263,7 @@ blockquote p {
   margin-bottom: 2rem;
 }
 .article__header ul {
+  color: #606060;
   color: var(--hint);
 }
 .article__header ul li {
@@ -267,6 +279,7 @@ blockquote p {
   width: 2px;
   height: 2px;
   border-radius: 50%;
+  background-color: #606060;
   background-color: var(--hint);
 }
 .article ul li:last-child::after {
